@@ -1,0 +1,25 @@
+# 忽略操作系统生成的文件
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# 忽略编译生成的文件和目录
+dist/
+build/
+node_modules/  # Node.js依赖
+target/  # Maven/Java编译目录
+
+# 忽略日志文件
+*.log
+logs/
+
+# 忽略配置文件（如果不想跟踪敏感信息）
+config.ini
+.env  # 环境变量文件
+
+# 忽略特定IDE/编辑器的配置
+.idea/  # IntelliJ IDEA
+.vscode/  # VS Code
+
+#忽略图片
+*.jpg
+*.txt
